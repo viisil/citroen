@@ -1,0 +1,189 @@
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 50px 20px 50px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;;
+  font-size: 12px;
+  line-break: 2.0;
+  line-height: 2.0;
+  text-align: center;
+  padding: 20px 30px 20px 50px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px 90px 0 150px;
+  background-color:transparent;
+  color: white;
+}
+
+/*
+ * Base structure
+ */
+
+.container-citroen{
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: none !important;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  position: relative;
+}
+
+.citroen-form-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .0rem 0;
+  font-weight: 100;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .0rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 0rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+  /*------------------------------------------------------------------
+  [ Input ]*/
+  
+  .wrap-input {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    text-align: center;
+    display: flex;
+    position: center;
+    padding: 0 90px 0 150px;
+    min-width: 100px;
+    height: 30px;
+    
+  }
+  
+  .input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    line-height: 1.2;
+    display: block;
+    width: 50%;
+    height: 25px;
+    background: #ffffff;
+    padding: 20 50px 20 50px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  /*------------------------------------------------------------------
+  [ Button ]*/
+  .container-citroen-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .citroen-form-btn {
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.2;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    
+    min-width: 100px;
+    height: 30px;
+    border-radius: 1px;
+  
+    background: #000000;
+    position: relative;
+    z-index: 1;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .citroen-form-btn::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #363636;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .citroen-form-btn:hover {
+    background-color: transparent;
+  }
+  
+  .citroen-form-btn:hover:before {
+    opacity: 1;
+  }

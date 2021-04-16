@@ -1,4 +1,4 @@
-# Citroen
+# Citröen Pegasus
 
 Tela de demostração da aplicação.
 
